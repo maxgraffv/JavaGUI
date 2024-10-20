@@ -18,6 +18,25 @@ public class Item {
         this.maxNum = maxNum;
     }
 
+    String getName()
+    {
+        return name;
+    }
+
+    ItemType getType()
+    {
+        return type;
+    }
+
+    String getImagePath()
+    {
+        return imagePath;
+    }
+
+    int getMaxNum()
+    {
+        return maxNum;
+    }
 
     
 }
